@@ -1,0 +1,177 @@
+/* Glassmorphism styles */
+.glass-container {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.homepage-container {
+  padding: 20px;
+  min-height: 100vh; /* Change from height to min-height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  position: relative;
+  z-index: 1;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-title {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+}
+
+.view-options {
+  display: flex;
+  gap: 15px;
+}
+/* Update hover styles for table rows */
+.ant-table-tbody > tr:hover > td {
+  background-color: #ff00d0 !important; /* Pink background on hover */
+  color: white !important; /* White text on hover */
+}
+
+/* Ensure the text color within the span stays white */
+.ant-table-tbody > tr:hover .table-text {
+  color: white !important; /* White text on hover */
+}
+.icon-button {
+  background: #ff00d0;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon-button:hover {
+  background: rgba(239, 0, 167, 0.2);
+}
+
+.add-button {
+  background: rgb(255, 0, 208);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-button:hover {
+  background: rgba(62, 184, 255, 1);
+}
+
+/* Table styles */
+.custom-table {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.ant-table {
+  background: transparent !important;
+}
+
+.ant-table-thead > tr > th {
+  background: rgba(255, 0, 208) !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.table-text {
+  color: white;
+}
+
+/* Modal styles */
+.custom-modal .ant-modal-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-modal .ant-modal-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 0, 225, 0.1);
+}
+
+.custom-modal .ant-modal-title {
+  color: white;
+}
+
+.custom-modal .ant-form-item-label > label {
+  color: white;
+}
+
+.custom-modal .ant-input,
+.custom-modal .ant-select-selector {
+  background: #ff00d0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
+/* Frequency selector button with pink color */
+.custom-select .ant-select-selector {
+  background: #ff00d0 !important; /* Pink color for the selector */
+  border: 1px solid #ff00d0 !important;
+  color: white !important;
+}
+
+.custom-select .ant-select-arrow {
+  color: white !important; /* White arrow */
+}
+
+/* Edit and Delete buttons with pink color */
+.anticon.anticon-edit,
+.anticon.anticon-delete {
+  color: #ffffff; /* Pink color for icons */
+}
+
+.anticon.anticon-edit:hover,
+.anticon.anticon-delete:hover {
+  color: rgb(255, 255, 255) !important; /* White color on hover */
+}
+.save{
+  background-color: #ff00d0;
+  color: #ffffff;
+}
+.save:hover{
+  background: rgba(62, 184, 255, 1);
+}
+.logout-button{
+ position: absolute; 
+ top: 20px;
+ right: 10px;
+}
+
+

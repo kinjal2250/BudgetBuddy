@@ -1,0 +1,70 @@
+/* Glassmorphism styles for register form */
+  #particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;           /* Ensure the particles background is behind the content */
+  }
+/* Glassmorphism styles for login form */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .register-form {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 400px;
+   
+  }
+  
+  .register-form h1 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .register-form .form-control {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .register-form .btn-primary {
+    background-color: #ff00d0;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%; /* Make the button take full width */
+    transition: all 0.3s;
+    margin-bottom: 15px; /* Add space between button and link */
+    display: block;
+    text-align: center;
+  }
+  
+  .register-form .btn-primary:hover {
+    background-color: rgba(62, 184, 255, 1);
+  }
+  
+  .register-form .text-primary {
+    color: #ff00d0;
+    text-align: center; /* Center the link */
+    display: block;
+  }
+  
