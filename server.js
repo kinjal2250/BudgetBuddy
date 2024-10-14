@@ -30,7 +30,7 @@ app.get("*", function (req, res) {
 
 
 //port
-const PORT = process.env.PORT || 8080; // Ensure the environment variable is checked first
+const PORT = process.env.PORT || 10000; // Ensure the environment variable is checked first
 
 //listening server
 app.listen(PORT,()=>{
