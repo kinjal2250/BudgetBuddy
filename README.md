@@ -20,7 +20,7 @@
 - **Frontend**: ReactJS
 - **Backend**: NodeJS, ExpressJS
 - **Database**: MongoDB (with Atlas for cloud storage)
-- **Styling**: Tailwind CSS / Ant Design
+- **Styling**: Bootstarp / Tailwind CSS / Ant Design
 - **Animations**: Framer Motion for dynamic transitions
 - **Deployment**: Hosted on Render and Vercel
 
