@@ -1,4 +1,4 @@
-# BudgetBuddy
+# BudgetBuddy ( MERN based Application )
 
 [Visit BudgetBuddy](https://yourwebsite.com)
 
