@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Spinner from "../components/Layouts/Spinner"; // Assuming Spinner is your custom spinner component
 import './Login.css';
-
+const API_URL="http://localhost:8080/api/v1";
 const Login = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
@@ -26,7 +26,7 @@ const Login = () => {
     try {
       setLoading(true);
       // Send formData to backend API for login
-      const { data } = await axios.post("/users/login", formData);
+      const { data } = await axios.post(`${API_URL}/users/login`, formData);
       setLoading(false);
       alert("Login successful");
 
