@@ -13,7 +13,7 @@ import {
 } from "@ant-design/icons";
 import Analytics from "../components/Layouts/Analytics";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-const API_URL="http://localhost:8080/api/v1";
+const API_URL="https://budgetbuddy-1-jhrm.onrender.com/api/v1";
 const HomePage = () => {
   const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(false);

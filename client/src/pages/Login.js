@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Spinner from "../components/Layouts/Spinner"; // Assuming Spinner is your custom spinner component
 import './Login.css';
-const API_URL="http://localhost:8080/api/v1";
+const API_URL="https://budgetbuddy-1-jhrm.onrender.com/api/v1";
 const Login = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
